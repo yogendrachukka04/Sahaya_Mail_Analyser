@@ -1,0 +1,6 @@
+{
+  "name": "Sahaya Mail Intelligence",
+  "description": "An AI-powered email chief of staff that prioritizes, summarizes, analyzes, and manages your Gmail inbox.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
