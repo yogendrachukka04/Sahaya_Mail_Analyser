@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Sahaya Mail Analyser
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/09b4e1cd-1ab1-475d-858a-97c88df2d690
+A privacy-first React + Firebase email analysis app with Gmail sign-in, AI-powered insights, and local configuration.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Copy `.env.example` to `.env.local` or `.env`
+3. Set the required environment variables in your local env file
+4. Run the app:
    `npm run dev`
+
+## Environment Variables
+
+Use `.env.example` as a template and provide values for:
+
+- `GEMINI_API_KEY`
+- `APP_URL`
+- `VITE_FIREBASE_API_KEY`
+- `VITE_FIREBASE_AUTH_DOMAIN`
+- `VITE_FIREBASE_PROJECT_ID`
+- `VITE_FIREBASE_STORAGE_BUCKET`
+- `VITE_FIREBASE_MESSAGING_SENDER_ID`
+- `VITE_FIREBASE_APP_ID`
+- `VITE_FIREBASE_MEASUREMENT_ID`
+
+## Build
+
+- `npm run build`
+- `npm start`
+
+## Validation
+
+- `npm run lint`
